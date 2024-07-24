@@ -23,9 +23,8 @@ const Hero = () => {
             Passionate about creating innovative solutions and improving user experiences.
           </p>
         </div>
-
-        <ComputersCanvas />
       </div>
+      <ComputersCanvas />
     </section>
   )
 }
