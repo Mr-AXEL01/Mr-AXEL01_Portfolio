@@ -19,7 +19,8 @@ const Hero = () => {
             </span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100 `}>
-            Full Stack Developer specializing in web and mobile applications. <br className="sm:block hidden"/>
+            Full Stack Developer specializing in web and mobile applications. 
+            <br className="sm:block hidden"/>
             Passionate about creating innovative solutions and improving user experiences.
           </p>
         </div>
