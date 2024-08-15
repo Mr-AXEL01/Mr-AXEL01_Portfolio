@@ -14,14 +14,22 @@ import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
-import laravel from "./tech/laravel.png";
+import php from "./tech/php_logo.png";
+import laravel from "./tech/laravel_logo.png";
 import mongodb from "./tech/mongodb.png";
-import nodejs from "./tech/nodejs.png";
+import postgreSQL from "./tech/postgresql-logo.png";
+import sql from "./tech/sql_logo.png";
+import vueJs from "./tech/vueJs.png";
 import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
+import reactNative from "./tech/reactNative-logo.png";
+import bootstrap from "./tech/bootstrap-logo.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
+import nestJs from "./tech/nestJs_logo.png";
+import threejs from "./tech/threeJs_logo.png";
+import postman from "./tech/postman.svg";
+import keycloack from "./tech/keycloack_logo.png";
+import aws from "./tech/aws_logo.png";
 
 import meta from "./company/meta.png";
 import youcode from "./company/youcode.jpg";
@@ -30,11 +38,8 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.png";
 import jabadoor from "./jabadoor.jpeg";
 import wemeet from "./wemeet.jpeg";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
 
 export {
   logo,
@@ -52,14 +57,22 @@ export {
   git,
   html,
   javascript,
+  php,
   laravel,
   mongodb,
-  nodejs,
+  postgreSQL,
+  sql,
+  vueJs,
   reactjs,
-  redux,
+  reactNative,
+  bootstrap,
   tailwind,
   typescript,
+  nestJs,
   threejs,
+  postman,
+  keycloack,
+  aws,
   meta,
   youcode,
   onedustry,
@@ -68,7 +81,5 @@ export {
   tesla,
   jabadoor,
   wemeet,
-  carrent,
-  jobit,
-  tripguide,
+
 };
