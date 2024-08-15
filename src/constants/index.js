@@ -4,6 +4,7 @@ import {
     creator,
     web,
     javascript,
+    laravel,
     typescript,
     html,
     css,
@@ -16,9 +17,13 @@ import {
     figma,
     docker,
     meta,
+    youcode,
+    onedustry,
     starbucks,
     tesla,
     shopify,
+    jabadoor,
+    wemeet,
     carrent,
     jobit,
     tripguide,
@@ -42,7 +47,7 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Frontend Developer",
       icon: web,
     },
     {
@@ -54,7 +59,7 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Solution Architect",
       icon: creator,
     },
   ];
@@ -71,6 +76,10 @@ import {
     {
       name: "JavaScript",
       icon: javascript,
+    },
+    {
+      name: "laravel",
+      icon: laravel,
     },
     {
       name: "TypeScript",
@@ -116,57 +125,58 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
+      "title": "Full Stack Developer",
+      "company_name": "\"YouCode\"",
+      "icon": youcode,
+      "iconBg": "#383E56",
+      "date": "September 2023 - May 2024",
+      "points": [
+        "Developed and maintained responsive web applications using technologies such as PHP, Laravel, Vue, and React.",
+        "Collaborated with cross-functional teams including other developers to deliver high-quality products.",
+        "Designed templates using Figma and worked with databases like SQL and PostgreSQL.",
+        "Participated in deployment and DevOps activities, including the use of Docker for containerization.",
+        "Engaged in team presentations and showcases to discuss and share key topics as part of the YouCode community."
+      ]
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Software Developer",
+      company_name: '" OneDustry " _  (Internship)',
+      icon: onedustry,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "may 2024 - Feb 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Developing and maintaining web & mobile application using MERN stack and other related technologies (AWS , Putty, ...).",
+        "Collaborating with cross-functional teams product managers, and other developers to create high-quality products.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+    // {
+    //   title: "Web Developer",
+    //   company_name: "Shopify",
+    //   icon: shopify,
+    //   iconBg: "#383E56",
+    //   date: "Jan 2022 - Jan 2023",
+    //   points: [
+    //     "Developing and maintaining web applications using React.js and other related technologies.",
+    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    //     "Implementing responsive design and ensuring cross-browser compatibility.",
+    //     "Participating in code reviews and providing constructive feedback to other developers.",
+    //   ],
+    // },
+    // {
+    //   title: "Full stack Developer",
+    //   company_name: "Meta",
+    //   icon: meta,
+    //   iconBg: "#E6DEDD",
+    //   date: "Jan 2023 - Present",
+    //   points: [
+    //     "Developing and maintaining web applications using React.js and other related technologies.",
+    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    //     "Implementing responsive design and ensuring cross-browser compatibility.",
+    //     "Participating in code reviews and providing constructive feedback to other developers.",
+    //   ],
+    // },
   ];
   
   const testimonials = [
@@ -198,67 +208,91 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "JaBaDoor",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "JABADOOR, allowing users to discover and book various accommodations according to different categories and their location.",
       tags: [
         {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "mongodb",
+          name: "reactNative",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "nestJs",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "reactJs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "mongoDB",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwindCss",
           color: "pink-text-gradient",
         },
+        {
+          name: "typeScript",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "AWS",
+          color: "orange-text-gradient",
+        },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: jabadoor,
+      source_code_link: "https://github.com/Mr-AXEL01/JABADOOR_MOBILE",
     },
     {
-      name: "Job IT",
+      name: "WEMEET",
       description:
         "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
       tags: [
         {
-          name: "react",
-          color: "blue-text-gradient",
+          name: "laravel",
+          color: "red-text-gradient",
         },
         {
-          name: "restapi",
+          name: "VueJs",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "TailwindCss",
           color: "pink-text-gradient",
+        },
+        {
+          name: "Docker",
+          color: "blue-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: wemeet,
+      source_code_link: "https://github.com/Mr-AXEL01/WEMEET",
     },
     {
-      name: "Trip Guide",
+      name: "BricoleMe",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "BricoleMe: Connecting Clients & Artisans Experience our Laravel-based platform revolutionizing home maintenance services. Seamlessly connect with skilled artisans.",
       tags: [
         {
-          name: "nextjs",
-          color: "blue-text-gradient",
+          name: "Laracel",
+          color: "red-text-gradient",
         },
         {
-          name: "supabase",
-          color: "green-text-gradient",
+          name: "JavaScript",
+          color: "yellow-text-gradient",
         },
         {
-          name: "css",
+          name: "TailwindCss",
           color: "pink-text-gradient",
+        },
+        {
+          name: "Docker",
+          color: "blue-text-gradient",
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/Mr-AXEL01/BricoleMe",
     },
   ];
   
