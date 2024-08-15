@@ -4,15 +4,22 @@ import {
     creator,
     web,
     javascript,
+    php,
     laravel,
     typescript,
     html,
     css,
+    vueJs,
     reactjs,
-    redux,
+    reactNative,
+    bootstrap,
     tailwind,
-    nodejs,
     mongodb,
+    postgreSQL,
+    sql,
+    postman,
+    keycloack,
+    aws,
     git,
     figma,
     docker,
@@ -24,10 +31,8 @@ import {
     shopify,
     jabadoor,
     wemeet,
-    carrent,
-    jobit,
-    tripguide,
     threejs,
+    nestJs,
   } from "../assets";
   
   export const navLinks = [
@@ -78,6 +83,10 @@ import {
       icon: javascript,
     },
     {
+      name: "Php",
+      icon: php,
+    },
+    {
       name: "laravel",
       icon: laravel,
     },
@@ -86,28 +95,56 @@ import {
       icon: typescript,
     },
     {
+      name: "Vue Js",
+      icon: vueJs,
+    },
+    {
       name: "React JS",
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
+      name: "React Native",
+      icon: reactNative,
+    },
+    {
+      name: "Bootstrap",
+      icon: bootstrap,
     },
     {
       name: "Tailwind CSS",
       icon: tailwind,
     },
     {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
       name: "MongoDB",
       icon: mongodb,
     },
     {
+      name: "PostgreSQL",
+      icon: postgreSQL,
+    },
+    {
+      name: "SQL",
+      icon: sql,
+    },
+    {
       name: "Three JS",
       icon: threejs,
+    },
+    {
+      name: "Nest JS",
+      icon: nestJs,
+    },
+    {
+      name: "Postman",
+      icon: postman,
+    },
+    {
+      name: "Keycloak",
+      icon: keycloack,
+    },
+    {
+      name: "AWS",
+      icon: aws,
     },
     {
       name: "git",
@@ -291,7 +328,7 @@ import {
           color: "blue-text-gradient",
         },
       ],
-      image: tripguide,
+      image: wemeet,
       source_code_link: "https://github.com/Mr-AXEL01/BricoleMe",
     },
   ];
