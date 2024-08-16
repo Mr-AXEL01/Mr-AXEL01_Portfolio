@@ -31,15 +31,13 @@ import postman from "./tech/postman.svg";
 import keycloack from "./tech/keycloack_logo.png";
 import aws from "./tech/aws_logo.png";
 
-import meta from "./company/meta.png";
+
 import youcode from "./company/youcode.jpg";
 import onedustry from "./company/onedustry.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
 
 import jabadoor from "./jabadoor.jpeg";
 import wemeet from "./wemeet.jpeg";
+import portfolio from "./portfolio.png";
 
 export {
   logo,
@@ -73,13 +71,10 @@ export {
   postman,
   keycloack,
   aws,
-  meta,
   youcode,
   onedustry,
-  shopify,
-  starbucks,
-  tesla,
   jabadoor,
   wemeet,
+  portfolio,
 
 };
