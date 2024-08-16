@@ -23,14 +23,11 @@ import {
     git,
     figma,
     docker,
-    meta,
     youcode,
     onedustry,
-    starbucks,
-    tesla,
-    shopify,
     jabadoor,
     wemeet,
+    portfolio,
     threejs,
     nestJs,
   } from "../assets";
@@ -307,13 +304,13 @@ import {
       source_code_link: "https://github.com/Mr-AXEL01/WEMEET",
     },
     {
-      name: "BricoleMe",
+      name: "Portfolio",
       description:
-        "BricoleMe: Connecting Clients & Artisans Experience our Laravel-based platform revolutionizing home maintenance services. Seamlessly connect with skilled artisans.",
+        "This is a portfolio to get more about me and my work , and it's a start for me to learn react 3D Three.js .",
       tags: [
         {
-          name: "Laracel",
-          color: "red-text-gradient",
+          name: "Three.js",
+          color: "green-text-gradient",
         },
         {
           name: "JavaScript",
@@ -324,12 +321,12 @@ import {
           color: "pink-text-gradient",
         },
         {
-          name: "Docker",
-          color: "blue-text-gradient",
+          name: "aws_Amplify",
+          color: "orange-text-gradient",
         },
       ],
-      image: wemeet,
-      source_code_link: "https://github.com/Mr-AXEL01/BricoleMe",
+      image: portfolio,
+      source_code_link: "https://github.com/Mr-AXEL01/Mr-AXEL01_Portfolio",
     },
   ];
   
