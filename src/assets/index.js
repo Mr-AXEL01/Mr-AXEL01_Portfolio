@@ -10,32 +10,31 @@ import close from "./close.svg";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
-import figma from "./tech/figma.png";
+import java from "./tech/java-mascot.webp";
+import spring from "./tech/spring.webp";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
-import php from "./tech/php_logo.png";
-import laravel from "./tech/laravel_logo.png";
 import mongodb from "./tech/mongodb.png";
 import postgreSQL from "./tech/postgresql-logo.png";
 import sql from "./tech/sql_logo.png";
-import vueJs from "./tech/vueJs.png";
 import reactjs from "./tech/reactjs.png";
 import reactNative from "./tech/reactNative-logo.png";
-import bootstrap from "./tech/bootstrap-logo.png";
 import tailwind from "./tech/tailwind.png";
-import typescript from "./tech/typescript.png";
-import nestJs from "./tech/nestJs_logo.png";
-import threejs from "./tech/threeJs_logo.png";
 import postman from "./tech/postman.svg";
 import keycloack from "./tech/keycloack_logo.png";
 import aws from "./tech/aws_logo.png";
+import jenkins from "./tech/jenkins.webp";
+import junit from "./tech/JUnit5.webp";
 
 
 import youcode from "./company/youcode.jpg";
 import onedustry from "./company/onedustry.png";
 
 import jabadoor from "./jabadoor.jpeg";
+import citronix from "./lemon-farm.webp";
+import itlens from "./it-survey.webp";
+import wrm from "./waiting-room.webp";
 import wemeet from "./wemeet.jpeg";
 import portfolio from "./portfolio.png";
 
@@ -51,30 +50,28 @@ export {
   close,
   css,
   docker,
-  figma,
+  java,
+  spring,
+  jenkins,
+  junit,
   git,
   html,
   javascript,
-  php,
-  laravel,
   mongodb,
   postgreSQL,
   sql,
-  vueJs,
   reactjs,
   reactNative,
-  bootstrap,
   tailwind,
-  typescript,
-  nestJs,
-  threejs,
   postman,
   keycloack,
   aws,
   youcode,
   onedustry,
   jabadoor,
+  citronix,
+  itlens,
+  wrm,
   wemeet,
   portfolio,
-
 };
