@@ -257,7 +257,7 @@ import {
         },
       ],
       image: citronix,
-      source_code_link: "https://github.com/Mr-AXEL01/JABADOOR_MOBILE",
+      source_code_link: "https://github.com/Mr-AXEL01/Citronix",
     },
     {
       name: "ITLens-Survey",
@@ -289,7 +289,7 @@ import {
       source_code_link: "https://github.com/Mr-AXEL01/ITLens",
     },
     {
-      name: "Waiting-roo",
+      name: "Waiting-room",
       description:
         "A centralized API to manage queues, optimizing the flow of visitors with configurable scheduling algorithms.",
       tags: [
