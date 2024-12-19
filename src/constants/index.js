@@ -4,15 +4,14 @@ import {
     creator,
     web,
     javascript,
-    php,
-    laravel,
-    typescript,
+    java,
+    spring,
+    jenkins,
+    junit,
     html,
     css,
-    vueJs,
     reactjs,
     reactNative,
-    bootstrap,
     tailwind,
     mongodb,
     postgreSQL,
@@ -21,15 +20,15 @@ import {
     keycloack,
     aws,
     git,
-    figma,
     docker,
     youcode,
     onedustry,
     jabadoor,
+    citronix,
+    itlens,
+    wrm,
     wemeet,
     portfolio,
-    threejs,
-    nestJs,
   } from "../assets";
   
   export const navLinks = [
@@ -49,6 +48,10 @@ import {
   
   const services = [
     {
+      title: "Backend Developer",
+      icon: backend,
+    },
+    {
       title: "Frontend Developer",
       icon: web,
     },
@@ -57,103 +60,77 @@ import {
       icon: mobile,
     },
     {
-      title: "Backend Developer",
-      icon: backend,
-    },
-    {
       title: "Solution Architect",
       icon: creator,
     },
   ];
   
-  const technologies = [
+  const backTtechnologies = [
+    {
+      name: "Java",
+      icon: java,
+    },
+    {
+      name: "Spring",
+      icon: spring,
+    },
+    {
+      name: "JUnit",
+      icon: junit,
+    },
+  ];
+
+  const frontendTechnologies = [
     {
       name: "HTML 5",
       icon: html,
     },
-    {
-      name: "CSS 3",
-      icon: css,
-    },
-    {
-      name: "JavaScript",
-      icon: javascript,
-    },
-    {
-      name: "Php",
-      icon: php,
-    },
-    {
-      name: "laravel",
-      icon: laravel,
-    },
-    {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
-      name: "Vue Js",
-      icon: vueJs,
-    },
-    {
-      name: "React JS",
-      icon: reactjs,
-    },
-    {
-      name: "React Native",
-      icon: reactNative,
-    },
-    {
-      name: "Bootstrap",
-      icon: bootstrap,
-    },
+    // {
+    //   name: "CSS 3",
+    //   icon: css,
+    // },
+    // {
+    //   name: "JavaScript",
+    //   icon: javascript,
+    // },
     {
       name: "Tailwind CSS",
       icon: tailwind,
     },
     {
-      name: "MongoDB",
-      icon: mongodb,
+      name: "React JS",
+      icon: reactjs,
+    }
+  ];
+
+  const devopsAndToolsTechnologies = [
+    {
+      name: "docker",
+      icon: docker,
     },
     {
-      name: "PostgreSQL",
-      icon: postgreSQL,
-    },
-    {
-      name: "SQL",
-      icon: sql,
-    },
-    {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
-      name: "Nest JS",
-      icon: nestJs,
-    },
-    {
-      name: "Postman",
-      icon: postman,
-    },
-    {
-      name: "Keycloak",
-      icon: keycloack,
+      name: "Jenkins",
+      icon: jenkins,
     },
     {
       name: "AWS",
       icon: aws,
     },
     {
+      name: "Postgresql",
+      icon: postgreSQL,
+    },
+    {
+      name: "MongoDB",
+      icon: mongodb,
+    },
+    {
+      name: "Keycloak",
+      icon: keycloack,
+    },
+    {
       name: "git",
       icon: git,
-    },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
     },
   ];
   
@@ -163,12 +140,12 @@ import {
       "company_name": "\"YouCode\"",
       "icon": youcode,
       "iconBg": "#383E56",
-      "date": "September 2023 - May 2024",
+      "date": "September 2023 - May 2025",
       "points": [
-        "Developed and maintained responsive web applications using technologies such as PHP, Laravel, Vue, and React.",
+        "Developed and maintained responsive web applications using technologies such as Java, Spring, Angular, and React.",
         "Collaborated with cross-functional teams including other developers to deliver high-quality products.",
-        "Designed templates using Figma and worked with databases like SQL and PostgreSQL.",
-        "Participated in deployment and DevOps activities, including the use of Docker for containerization.",
+        "Designed templates using Figma and worked with databases like PostgreSQL and MongoDB.",
+        "Participated in deployment and DevOps activities, using technologies such as Jenkins, Github-action and Docker for containerization.",
         "Engaged in team presentations and showcases to discuss and share key topics as part of the YouCode community."
       ]
     },
@@ -177,7 +154,7 @@ import {
       company_name: '" OneDustry " _  (Internship)',
       icon: onedustry,
       iconBg: "#E6DEDD",
-      date: "may 2024 - Feb 2022",
+      date: "may 2024 - Juil 2024",
       points: [
         "Developing and maintaining web & mobile application using MERN stack and other related technologies (AWS , Putty, ...).",
         "Collaborating with cross-functional teams product managers, and other developers to create high-quality products.",
@@ -242,6 +219,113 @@ import {
   
   const projects = [
     {
+      name: "CITRONIX",
+      description:
+        "a management application for a lemon farm, allowing farmers to monitor the production, harvest, and sale of their products",
+      tags: [
+        {
+          name: "Spring Boot",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Docker",
+          color: "blue-text-gradient",
+        },
+        // {
+        //   name: "CI/CD (Github-action)",
+        //   color: "yellow-text-gradient",
+        // },
+        {
+          name: "JUnit & Mockito",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "Spring Data Jpa",
+          color: "green-text-gradient",
+        },
+        {
+          name: "PostgreSQL",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Swagger",
+          color: "yellow-text-gradient",
+        },
+        {
+          name: "MapStruct",
+          color: "orange-text-gradient",
+        },
+      ],
+      image: citronix,
+      source_code_link: "https://github.com/Mr-AXEL01/JABADOOR_MOBILE",
+    },
+    {
+      name: "ITLens-Survey",
+      description:
+        "Application for conducting computer-based surveys, structured in chapters and sub-chapters, with different types of questions.",
+      tags: [
+        {
+          name: "Spring Boot",
+          color: "green-text-gradient",
+        },
+        {
+          name: "JUnit & Mockito",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "Spring Data Jpa",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Swagger",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "MapStruct",
+          color: "orange-text-gradient",
+        },
+      ],
+      image: itlens,
+      source_code_link: "https://github.com/Mr-AXEL01/ITLens",
+    },
+    {
+      name: "Waiting-roo",
+      description:
+        "A centralized API to manage queues, optimizing the flow of visitors with configurable scheduling algorithms.",
+      tags: [
+        {
+          name: "Spring Boot",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Docker",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "CI/CD (Github-action)",
+          color: "yellow-text-gradient",
+        },
+        {
+          name: "JUnit & Mockito",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "Spring Data Jpa",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Swagger",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "MapStruct",
+          color: "orange-text-gradient",
+        },
+      ],
+      image: wrm,
+      source_code_link: "https://github.com/Mr-AXEL01/WRM",
+    },
+    {
       name: "JaBaDoor",
       description:
         "JABADOOR, allowing users to discover and book various accommodations according to different categories and their location.",
@@ -278,31 +362,31 @@ import {
       image: jabadoor,
       source_code_link: "https://github.com/Mr-AXEL01/JABADOOR_MOBILE",
     },
-    {
-      name: "WEMEET",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
-        {
-          name: "laravel",
-          color: "red-text-gradient",
-        },
-        {
-          name: "VueJs",
-          color: "green-text-gradient",
-        },
-        {
-          name: "TailwindCss",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "Docker",
-          color: "blue-text-gradient",
-        },
-      ],
-      image: wemeet,
-      source_code_link: "https://github.com/Mr-AXEL01/WEMEET",
-    },
+    // {
+    //   name: "WEMEET",
+    //   description:
+    //     "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    //   tags: [
+    //     {
+    //       name: "laravel",
+    //       color: "red-text-gradient",
+    //     },
+    //     {
+    //       name: "VueJs",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "TailwindCss",
+    //       color: "pink-text-gradient",
+    //     },
+    //     {
+    //       name: "Docker",
+    //       color: "blue-text-gradient",
+    //     },
+    //   ],
+    //   image: wemeet,
+    //   source_code_link: "https://github.com/Mr-AXEL01/WEMEET",
+    // },
     {
       name: "Portfolio",
       description:
@@ -330,4 +414,11 @@ import {
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, 
+    backTtechnologies, 
+    frontendTechnologies, 
+    devopsAndToolsTechnologies, 
+    experiences, 
+    testimonials, 
+    projects 
+  };
