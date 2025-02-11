@@ -11,6 +11,7 @@ import {
     html,
     css,
     reactjs,
+    angular,
     reactNative,
     tailwind,
     mongodb,
@@ -74,17 +75,17 @@ import {
       name: "Spring",
       icon: spring,
     },
-    {
-      name: "JUnit",
-      icon: junit,
-    },
+    // {
+    //   name: "JUnit",
+    //   icon: junit,
+    // },
   ];
 
   const frontendTechnologies = [
-    {
-      name: "HTML 5",
-      icon: html,
-    },
+    // {
+    //   name: "HTML 5",
+    //   icon: html,
+    // },
     // {
     //   name: "CSS 3",
     //   icon: css,
@@ -93,13 +94,17 @@ import {
     //   name: "JavaScript",
     //   icon: javascript,
     // },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
+    // {
+    //   name: "Tailwind CSS",
+    //   icon: tailwind,
+    // },
     {
       name: "React JS",
       icon: reactjs,
+    },
+    {
+      name: "Angular",
+      icon: angular,
     }
   ];
 
@@ -124,10 +129,10 @@ import {
       name: "MongoDB",
       icon: mongodb,
     },
-    {
-      name: "Keycloak",
-      icon: keycloack,
-    },
+    // {
+    //   name: "Keycloak",
+    //   icon: keycloack,
+    // },
     {
       name: "git",
       icon: git,

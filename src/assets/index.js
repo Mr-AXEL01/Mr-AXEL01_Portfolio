@@ -18,6 +18,7 @@ import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import postgreSQL from "./tech/postgresql-logo.png";
 import sql from "./tech/sql_logo.png";
+import angular from "./tech/angular-icon.svg";
 import reactjs from "./tech/reactjs.png";
 import reactNative from "./tech/reactNative-logo.png";
 import tailwind from "./tech/tailwind.png";
@@ -61,6 +62,7 @@ export {
   postgreSQL,
   sql,
   reactjs,
+  angular,
   reactNative,
   tailwind,
   postman,
